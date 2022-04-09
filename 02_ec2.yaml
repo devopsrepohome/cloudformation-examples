@@ -5,9 +5,9 @@ Resources:
   WebAppInstance:
     Type: AWS::EC2::Instance
     Properties:
-      ImageId: ami-0d5eff06f840b45e9 # ImageID valid only in us-east-1 region
+      ImageId: ami-0b28dfc7adc325ef4 # ImageID valid only in us-east-1 region
       InstanceType: t2.micro
-      KeyName: jenna # <-- Change to use your key-pair name
+      KeyName: LordVenk
       SecurityGroupIds:
         - !Ref WebAppSecurityGroup
 
